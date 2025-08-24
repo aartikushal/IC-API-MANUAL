@@ -26,8 +26,6 @@ It integrates **n8n** for workflow automation, **Pinecone** for vector search, *
 ---
 
 ## 📊 Architecture Flow
-
-```mermaid
 flowchart TD
     A[User asks API question in Telegram] --> B[Telegram Bot]
     B --> C[n8n Webhook]
